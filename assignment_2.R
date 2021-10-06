@@ -9,7 +9,7 @@ airbnb <- read.csv("assign_2.csv")
 airbnb <- tibble(airbnb)
 
 # (b) view data and column names
-View(airbnb)
+# View(airbnb)
 colnames(airbnb)
 
 # (c) rename a column name and save
