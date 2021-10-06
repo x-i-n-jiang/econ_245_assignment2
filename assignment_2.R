@@ -1,3 +1,7 @@
+# assignment 2
+# Xin Jiang
+# Ariel Gao
+
 # pull first
 
 library(tidyverse)
@@ -5,7 +9,7 @@ library(dplyr)
 
 # 1.setting up the data
 #(a) read data and save as a tibble
-airbnb <- read.csv("assign_2.csv")
+airbnb <- read_csv("assign_2.csv")
 airbnb <- tibble(airbnb)
 
 # (b) view data and column names
