@@ -54,9 +54,9 @@ summary_stats_top_neighborhoods <-
   summary_stats_top_neighborhoods %>% arrange(desc(avg_square_feet))
 
 # (e) save the highest average square feet
-highest_avg_square_ft<-summary_stats_top_neighborhoods[1,2]
+highest_avg_square_ft<-summary_stats_top_neighborhoods[[1,2]]
 
 # (f) save the second highest average price
 summary_stats_top_neighborhoods<-summary_stats_top_neighborhoods %>% 
   arrange(desc(avg_price))
-second_avg_price<-summary_stats_top_neighborhoods[2,3]
+second_avg_price<-summary_stats_top_neighborhoods[[2,3]]
